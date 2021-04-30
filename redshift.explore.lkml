@@ -1,3 +1,6 @@
+connection: "redshift_r3"
+label: "Looker Weather"
+
 include: "redshift.*.view"
 
 explore: gsod {
